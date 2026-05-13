@@ -15,7 +15,7 @@ Ce portfolio repose sur une chaîne de déploiement moderne, illustrant une maî
 * **Générateur :** [Hugo](https://gohugo.io/) (Framework ultra-rapide).
 * **Thème :** PaperMod (Optimisé pour la performance).
 * **Versionnage :** Git (Gestion des branches et des submodules pour le thème).
-* **Hébergement :** GitHub Pages[cite: 82].
+* **Hébergement :** GitHub Pages.
 
 ### ⚙️ Automatisation CI/CD
 Le point fort de ce projet est l'utilisation de **GitHub Actions**. Chaque fois que je pousse une modification sur mon dépôt GitHub, un workflow s'exécute automatiquement :
