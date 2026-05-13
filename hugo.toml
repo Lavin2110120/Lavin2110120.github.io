@@ -1,0 +1,39 @@
+baseURL = "https://Lavin2110120.github.io/"
+languageCode = "fr-fr"
+title = "Vincent Girardin - Portfolio"
+theme = "PaperMod"
+
+[[menu.main]]
+    name = "Projets"
+    url = "/projets/"
+    weight = 10
+[[menu.main]]
+    name = "Expériences"
+    url = "/experience/"
+    weight = 20
+[[menu.main]]
+    name = "Associations"
+    url = "/assos/"
+    weight = 30
+[params.profileMode]
+    enabled = true
+    title = "Vincent Girardin"
+    subtitle = "Data Scientist (Apprentissage) chez Berner | Appétence DevOps"
+    displayFullContent = false
+    headerGuideline = true
+
+[[params.profileMode.buttons]]
+    name = "Projets"
+    url = "projets"
+[[params.profileMode.buttons]]
+    name = "Expériences Pros"
+    url = "experience"
+[[params.profileMode.buttons]]
+    name = "Vie associative"
+    url = "assos"
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/vincent-girardin"
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Lavin2110120"
