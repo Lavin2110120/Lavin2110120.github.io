@@ -22,7 +22,7 @@ Cette association proposait aux professionnels de récupérer leurs déchets ali
 
 Cette expérience fût pour moi une occasion concrète de mettre en pratique mes compétences d'analyse de données. Grâce à celles-ci nous avons pu faire grandir notre nombre de clients et ajuster notre politique tarifaire. Nous avons pu employer un nouveau salarié en CDI.
 
-Malheureusement, le manque de soutien politique et l'absence de bénévoles nous ont contraints à cesser l'activité en 2023. Je n'en garde que de bons souvenirs et aussi une certaine idée de comment confronter les idéaux écologiques aux réalités économiques et surtout au scepticisme ambiant. 
+Malheureusement, le manque de soutien politique et l'absence de bénévoles nous ont contraints à cesser l'activité juste avant mon départ pour l'Yonne. Je n'en garde que de bons souvenirs et aussi une certaine idée de comment confronter les idéaux écologiques aux réalités économiques et surtout au scepticisme ambiant. 
 Pour moi, cette expérience a surtout été le vécu d'une véritable prise de responsabilité. Ayant moi-même signé la déclaration de cessation d'activité, j'ai su prendre la responsabilité d'une décision qui engendrait le licenciement de 2 salariés.
 
 ### 🏃 Sports & Dépassement de soi
