@@ -17,7 +17,7 @@ theme = "PaperMod"
     weight = 30
 [[menu.main]]
     name = "Passions"
-    url = "/interets/"
+    url = "/passions/"
     weight = 40
 
 [params.profileMode]
@@ -31,14 +31,14 @@ theme = "PaperMod"
     name = "Projets"
     url = "projets"
 [[params.profileMode.buttons]]
-    name = "Formation&Expériences"
+    name = "Formation & Expériences"
     url = "experience"
 [[params.profileMode.buttons]]
     name = "Vie associative"
     url = "assos"
 [[params.profileMode.buttons]]
     name = "En dehors du boulot"
-    url = "interets"
+    url = "passions"
 
 [[params.socialIcons]]
     name = "linkedin"
