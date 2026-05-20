@@ -37,7 +37,7 @@ theme = "PaperMod"
     name = "Vie associative"
     url = "/assos/"
 [[params.profileMode.buttons]]
-    name = "En dehors du boulot"
+    name = "Passions"
     url = "/passions/"
 
 [[params.socialIcons]]

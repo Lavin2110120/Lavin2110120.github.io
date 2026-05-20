@@ -1,5 +1,5 @@
 ---
-title: "Data Scientist (Apprentissage)"
+title: "Apprentissage chez BERNER - Data Scientist"
 company: "BERNER"
 date: 2025-09-01
 lastmod: 2027-02-01

@@ -1,5 +1,5 @@
 ---
-title: "Portfolio & CI/CD"
+title: "Portfolio avec CI/CD"
 date: 2026-05-13
 description: "Mise en place d'un portfolio automatisé avec Hugo et GitHub Actions."
 tags: ["DevOps", "GitHub Actions", "Hugo", "Git"]

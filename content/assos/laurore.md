@@ -1,5 +1,5 @@
 ---
-title: "Vice-Président"
+title: "Vice-Président de l'Aurore"
 company: "L'Aurore"
 date: 2021-06-01
 lastmod: 2024-06-01

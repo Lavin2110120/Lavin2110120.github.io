@@ -1,5 +1,5 @@
 ---
-title: "Co-Président"
+title: "Co-Président de la Chaîne Verte"
 company: "La Chaîne Verte"
 date: 2023-03-01
 lastmod: 2025-06-01
