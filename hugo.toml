@@ -29,16 +29,16 @@ theme = "PaperMod"
 
 [[params.profileMode.buttons]]
     name = "Projets"
-    url = "projets"
+    url = "/projets/"
 [[params.profileMode.buttons]]
     name = "Formation & Expériences"
-    url = "experience"
+    url = "/experience/"
 [[params.profileMode.buttons]]
     name = "Vie associative"
-    url = "assos"
+    url = "/assos/"
 [[params.profileMode.buttons]]
     name = "En dehors du boulot"
-    url = "passions"
+    url = "/passions/"
 
 [[params.socialIcons]]
     name = "linkedin"
