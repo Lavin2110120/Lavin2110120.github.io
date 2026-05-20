@@ -7,7 +7,7 @@ showToc: true
 ### 🎺 Musique & Engagement Collectif en orchestre
 
 Trompettiste en orchestre et titulaire du **CEM (Certificat d'Études Musicales)**, cet univers exige une rigueur stricte et une écoute mutuelle constante :
-* **Orchestres Symphoniques :** Le Stock à Dijon, L'Aurore à Troyes.
+* **Orchestres Symphoniques :** Stock à Dijon, L'Aurore à Troyes.
 * **Brassband & Harmonies :** Yonne Brass, ainsi que les harmonies de Joigny, Sens et l'AMSA.
 
 Dans tous ces ensembles, j'ai toujours été très impliqué dans l'organisation des concerts: recrutement de musiciens, réservation de salle, communication... Ceci exige un constant sens de l'anticipation et m'a permis de mettre en place des projets importants  avec de grandes containtes organisationnelles. 
