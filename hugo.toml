@@ -15,6 +15,11 @@ theme = "PaperMod"
     name = "Associations"
     url = "/assos/"
     weight = 30
+[[menu.main]]
+    name = "Passions"
+    url = "/interets/"
+    weight = 40
+
 [params.profileMode]
     enabled = true
     title = "Vincent Girardin"
@@ -26,11 +31,15 @@ theme = "PaperMod"
     name = "Projets"
     url = "projets"
 [[params.profileMode.buttons]]
-    name = "Expériences Pros"
+    name = "Formation&Expériences"
     url = "experience"
 [[params.profileMode.buttons]]
     name = "Vie associative"
     url = "assos"
+[[params.profileMode.buttons]]
+    name = "En dehors du boulot"
+    url = "interets"
+
 [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/vincent-girardin"
