@@ -7,7 +7,7 @@ location: "Yonne"
 showToc: false
 ---
 
-**Diplômé d'un MBA en Science de la donnée** après une alternance de 18 mois, j'ai développé une expertise sur l'ensemble de la chaîne de valeur Data. 
+**Actuellement en MBA Data Scientist (OpenClassrooms) dans l'entreprise BERNER,** je serai diplômé en février 2027 après une alternance de 18 mois. J'aurai alors développé une expertise sur l'ensemble de la chaîne de valeur Data. 
 
 #### Missions principales chez BERNER
 * **Gestion de bases de données** : Extraction, nettoyage et manipulation de volumes de données complexes via SQL

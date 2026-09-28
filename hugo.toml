@@ -23,7 +23,7 @@ theme = "PaperMod"
 [params.profileMode]
     enabled = true
     title = "Vincent Girardin"
-    subtitle = "Data Scientist (Apprentissage) chez Berner | Appétence DevOps"
+    subtitle = "Data Scientist (Apprentissage) chez Berner | Computer Vision & MLOps"
     displayFullContent = false
     headerGuideline = true
 
