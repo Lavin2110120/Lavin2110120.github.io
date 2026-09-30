@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Portfolio avec CI/CD | Vincent Girardin - Portfolio</title>
-<meta name="keywords" content="DevOps, GitHub Actions, Hugo, Git">
-<meta name="description" content="Mise en place d&#39;un portfolio automatisé avec Hugo et GitHub Actions.">
+<title>Dashboard Power BI &amp; Automatisation SQL — Pilotage de la Performance Produit | Vincent Girardin - Portfolio</title>
+<meta name="keywords" content="Power BI, SQL, Data Visualization, ETL, B2B">
+<meta name="description" content="Conception et déploiement d&#39;un outil décisionnel interactif pour les équipes Produit et Promotion chez BERNER, présenté au ComEX.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/projets/portfolio-cicd/">
+<link rel="canonical" href="http://localhost:1313/projets/dashboard-powerbi-berner/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.dc51fb4ce5284d6559f01470e2be97c15f7eda5edbc9b11209021122dab8168e.css" integrity="sha256-3FH7TOUoTWVZ8BRw4r6XwV9&#43;2l7bybESCQIRItq4Fo4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projets/portfolio-cicd/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projets/dashboard-powerbi-berner/">
 <noscript>
     <style>
         #theme-toggle,
@@ -124,60 +124,98 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Portfolio avec CI/CD
+      Dashboard Power BI &amp; Automatisation SQL — Pilotage de la Performance Produit
     </h1>
     <div class="post-description">
-      Mise en place d&#39;un portfolio automatisé avec Hugo et GitHub Actions.
+      Conception et déploiement d&#39;un outil décisionnel interactif pour les équipes Produit et Promotion chez BERNER, présenté au ComEX.
     </div>
     <div class="post-meta">
 
-<span title='2026-05-13 00:00:00 +0000 UTC'>13 mai 2026</span>
+<span title='2026-07-15 00:00:00 +0000 UTC'>15 juillet 2026</span>
 
 </div>
-  </header> <details class="toc" >
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager" src="http://localhost:1313/projets/dashboard-powerbi-berner/cover.png" alt="Dashboard Power BI BERNER">
+        
+</figure><details class="toc" >
     <summary accesskey="c" title="(Alt + C)">
         <span class="title">Table of Contents</span>
     </summary>
 
     <div class="inner"><ul>
             <li>
-                <a href="#-objectif-du-projet" aria-label="🚀 Objectif du projet">🚀 Objectif du projet</a></li>
+                <a href="#contexte--probl%c3%a9matique" aria-label="Contexte &amp; Problématique">Contexte &amp; Problématique</a></li>
             <li>
-                <a href="#-architecture-technique" aria-label="🛠️ Architecture Technique">🛠️ Architecture Technique</a></li>
+                <a href="#solution-d%c3%a9velopp%c3%a9e" aria-label="Solution développée">Solution développée</a><ul>
+                    
             <li>
-                <a href="#-automatisation-cicd" aria-label="⚙️ Automatisation CI/CD">⚙️ Automatisation CI/CD</a></li>
+                <a href="#architecture--fonctionnalit%c3%a9s-cl%c3%a9s" aria-label="Architecture &amp; Fonctionnalités clés">Architecture &amp; Fonctionnalités clés</a></li></ul>
+            </li>
             <li>
-                <a href="#-comp%c3%a9tences-valid%c3%a9es" aria-label="📈 Compétences Validées">📈 Compétences Validées</a>
+                <a href="#comparatif-technique--excel-vs-power-bi" aria-label="Comparatif technique : Excel vs Power BI">Comparatif technique : Excel vs Power BI</a></li>
+            <li>
+                <a href="#impact--livrables" aria-label="Impact &amp; Livrables">Impact &amp; Livrables</a>
             </li>
         </ul>
     </div>
 </details>
 
-  <div class="post-content md-content"><h3 id="-objectif-du-projet">🚀 Objectif du projet<a hidden class="anchor" aria-hidden="true" href="#-objectif-du-projet">#</a></h3>
-<p>L&rsquo;idée était de concevoir un support professionnel pour présenter mes travaux en <strong>Data Science</strong>, tout en démontrant mes compétences techniques en <strong>DevOps</strong>  et en automatisation.</p>
-<h3 id="-architecture-technique">🛠️ Architecture Technique<a hidden class="anchor" aria-hidden="true" href="#-architecture-technique">#</a></h3>
-<p>Ce portfolio repose sur une chaîne de déploiement moderne, illustrant une maîtrise de l&rsquo;intégralité d&rsquo;une chaîne de production:</p>
+  <div class="post-content md-content"><h2 id="contexte--problématique">Contexte &amp; Problématique<a hidden class="anchor" aria-hidden="true" href="#contexte--problématique">#</a></h2>
+<p>Au sein du service <strong>Data Marketing &amp; Pricing</strong> chez BERNER, les suivis de performance des gammes produits reposaient sur des fichiers Excel volumineux (outil <em>BofEx</em>). Ces processus présentaient plusieurs limites critiques :</p>
 <ul>
-<li><strong>Générateur :</strong> <a href="https://gohugo.io/">Hugo</a> (Framework ultra-rapide).</li>
-<li><strong>Thème :</strong> PaperMod (Optimisé pour la performance).</li>
-<li><strong>Versionnage :</strong> Git (Gestion des branches et des submodules pour le thème).</li>
-<li><strong>Hébergement :</strong> GitHub Pages.</li>
+<li><strong>Volume de données &amp; Lenteur</strong> : Traitements manuels lourds et ralentissements importants sur les fichiers de plus de 100 000 lignes.</li>
+<li><strong>Absence d&rsquo;interactivité</strong> : Analyse statique générant un « tunnel de vision » et restreignant l&rsquo;exploration approfondie des ventes.</li>
+<li><strong>Obsolescence temporelle</strong> : Mises à jour manuelles séquencées sans source unique et uniformisée.</li>
 </ul>
-<h3 id="-automatisation-cicd">⚙️ Automatisation CI/CD<a hidden class="anchor" aria-hidden="true" href="#-automatisation-cicd">#</a></h3>
-<p>Le point fort de ce projet est l&rsquo;utilisation de <strong>GitHub Actions</strong>. Chaque fois que je pousse une modification sur mon dépôt GitHub, un workflow s&rsquo;exécute automatiquement :</p>
-<ol>
-<li><strong>Build :</strong> Installation de la version <em>extended</em> de Hugo sur une machine virtuelle Ubuntu (environnement Linux).</li>
-<li><strong>Génération :</strong> Compilation du site Markdown en HTML/CSS optimisé.</li>
-<li><strong>Déploiement :</strong> Mise à jour automatique du site en ligne sur <code>https://Lavin2110120.github.io/</code>.</li>
-</ol>
-<blockquote>
-<p>Cela garantit que mon portfolio est toujours à jour sans aucune intervention manuelle.</p>
-</blockquote>
-<h3 id="-compétences-validées">📈 Compétences Validées<a hidden class="anchor" aria-hidden="true" href="#-compétences-validées">#</a></h3>
+<h2 id="solution-développée">Solution développée<a hidden class="anchor" aria-hidden="true" href="#solution-développée">#</a></h2>
+<p>Pour résoudre ces contraintes, j&rsquo;ai conçu et déployé une solution décisionnelle automatisée sous <strong>Power BI</strong>, alimentée par des requêtes SQL optimisées.</p>
+<h3 id="architecture--fonctionnalités-clés">Architecture &amp; Fonctionnalités clés<a hidden class="anchor" aria-hidden="true" href="#architecture--fonctionnalités-clés">#</a></h3>
 <ul>
-<li>Maîtrise du workflow <strong>Git</strong> (Versioning &amp; CI/CD).</li>
-<li>Configuration de pipelines via <strong>YAML</strong>.</li>
-<li>Rédaction technique et structuration de l&rsquo;information.</li>
+<li><strong>Suivi de la performance globale</strong> : Analyse croisée du chiffre d&rsquo;affaires, de la marge, du mix produit et des évolutions d&rsquo;une année sur l&rsquo;autre (YoY) par groupe de matériel.</li>
+<li><strong>Analyse géographique &amp; Pénétration</strong> : Visualisation cartographique par département pour évaluer le taux de pénétration et la couverture client[cite: 11].</li>
+<li><strong>Suivi temporel &amp; Tendances</strong> : Graphiques dynamiques d&rsquo;évolution mensuelle permettant d&rsquo;isoler les variations par indicateur et par trimestre[cite: 12].</li>
+<li><strong>Filtres &amp; Segmentation</strong> : Navigation multi-critères par filiale, famille de produits, canal de vente et hiérarchie commerciale[cite: 10].</li>
+</ul>
+<p><img alt="Vue matricielle et indicateurs de marge" loading="lazy" src="/projets/dashboard-powerbi-berner/powerbi-table.png"></p>
+<h2 id="comparatif-technique--excel-vs-power-bi">Comparatif technique : Excel vs Power BI<a hidden class="anchor" aria-hidden="true" href="#comparatif-technique--excel-vs-power-bi">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">Fonctionnalité</th>
+					<th style="text-align: left">Ancienne approche (Excel / BofEx)</th>
+					<th style="text-align: left">Solution déployée (Power BI)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left"><strong>Volume de données</strong></td>
+					<td style="text-align: left">Limité (lenteur &gt; 100k lignes)</td>
+					<td style="text-align: left">Traitement de données massives sans perte de fluide</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Interactivité</strong></td>
+					<td style="text-align: left">Filtres basiques et visuels statiques</td>
+					<td style="text-align: left">Graphiques dynamiques et filtres croisés</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Partage</strong></td>
+					<td style="text-align: left">Fichiers isolés par utilisateur</td>
+					<td style="text-align: left">Source unique, uniformisée et sécurisée</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Mises à jour</strong></td>
+					<td style="text-align: left">Séquencées et manuelles</td>
+					<td style="text-align: left">Automatisation du flux de données</td>
+			</tr>
+	</tbody>
+</table>
+<p><img alt="Analyse cartographique de la pénétration" loading="lazy" src="/projets/dashboard-powerbi-berner/powerbi-carte.png"></p>
+<h2 id="impact--livrables">Impact &amp; Livrables<a hidden class="anchor" aria-hidden="true" href="#impact--livrables">#</a></h2>
+<ul>
+<li><strong>Présentation CODIR / Future Youth</strong> : Présentation du projet et démonstration de l&rsquo;outil devant la direction le 15 juillet 2026.</li>
+<li><strong>Adoption métier</strong> : Outil mis à disposition des Spécialistes Produit et du service Promotion à la rentrée 2026, accompagné de sessions de formation.</li>
+<li><strong>Gain de productivité</strong> : Réduction drastique du temps d&rsquo;extraction et suppression des tâches répétitives de préparation de données.</li>
 </ul>
 
 
@@ -185,10 +223,11 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/devops/">DevOps</a></li>
-      <li><a href="http://localhost:1313/tags/github-actions/">GitHub Actions</a></li>
-      <li><a href="http://localhost:1313/tags/hugo/">Hugo</a></li>
-      <li><a href="http://localhost:1313/tags/git/">Git</a></li>
+      <li><a href="http://localhost:1313/tags/power-bi/">Power BI</a></li>
+      <li><a href="http://localhost:1313/tags/sql/">SQL</a></li>
+      <li><a href="http://localhost:1313/tags/data-visualization/">Data Visualization</a></li>
+      <li><a href="http://localhost:1313/tags/etl/">ETL</a></li>
+      <li><a href="http://localhost:1313/tags/b2b/">B2B</a></li>
     </ul>
   </footer>
 </article>
