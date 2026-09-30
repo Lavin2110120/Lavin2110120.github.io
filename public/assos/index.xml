@@ -5,17 +5,31 @@
     <link>http://localhost:1313/assos/</link>
     <description>Recent content in Assos on Vincent Girardin - Portfolio</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <language>fr-FR</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/assos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Co-Président - La Chaîne Verte</title>
+      <title>Co-Président de la Chaîne Verte</title>
       <link>http://localhost:1313/assos/la-chaine-verte/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/assos/la-chaine-verte/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Impact Business&lt;/strong&gt; : Triplement du nombre de clients (de 10 à 29).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stratégie&lt;/strong&gt; : Contribution à l&amp;rsquo;augmentation du CA et embauche d&amp;rsquo;un salarié en CDI.&lt;/li&gt;
+      <description>&lt;h4 id=&#34;réalisations-clés&#34;&gt;Réalisations clés&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Croissance stratégique&lt;/strong&gt; : Pilotage d&amp;rsquo;actions ayant mené au triplement du nombre de clients (de 10 à 29) et à l&amp;rsquo;augmentation du chiffre d&amp;rsquo;affaires&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gestion humaine&lt;/strong&gt; : Contribution directe à l&amp;rsquo;embauche d&amp;rsquo;un salarié en CDI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyse de données&lt;/strong&gt; : Réalisation de rapports d&amp;rsquo;analyse sur les données clients pour orienter les décisions du bureau&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vice-Président de l&#39;Aurore</title>
+      <link>http://localhost:1313/assos/laurore/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/assos/laurore/</guid>
+      <description>&lt;h4 id=&#34;impact-et-management&#34;&gt;Impact et Management&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gouvernance&lt;/strong&gt; : Présidence des réunions du Conseil d&amp;rsquo;Administration (10 membres)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Communication &amp;amp; Marketing&lt;/strong&gt; : Doublement de l&amp;rsquo;affluence aux concerts et triplement de l&amp;rsquo;audience sur les réseaux sociaux (Facebook, YouTube)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transformation numérique&lt;/strong&gt; : Optimisation de la gestion interne de l&amp;rsquo;association via l&amp;rsquo;implémentation d&amp;rsquo;outils numériques&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

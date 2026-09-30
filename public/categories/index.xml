@@ -5,7 +5,22 @@
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Vincent Girardin - Portfolio</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/categories/data-science/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Santé</title>
+      <link>http://localhost:1313/categories/sant%C3%A9/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sant%C3%A9/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

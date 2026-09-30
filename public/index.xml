@@ -1,35 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Bienvenue sur mon portfolio on Vincent Girardin - Portfolio</title>
+    <title>Vincent Girardin - Accueil on Vincent Girardin - Portfolio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Bienvenue sur mon portfolio on Vincent Girardin - Portfolio</description>
+    <description>Recent content in Vincent Girardin - Accueil on Vincent Girardin - Portfolio</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 13 May 2026 15:57:15 +0200</lastBuildDate>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 01 Feb 2027 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deep Learning</title>
-      <link>http://localhost:1313/projets_oc/deep-learning/</link>
-      <pubDate>Wed, 13 May 2026 15:57:15 +0200</pubDate>
-      <guid>http://localhost:1313/projets_oc/deep-learning/</guid>
-      <description></description>
+      <title>Parcours de Formation</title>
+      <link>http://localhost:1313/experience/formations/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/formations/</guid>
+      <description>&lt;h3 id=&#34;-mes-diplômes-en-data-science&#34;&gt;🎓 Mes Diplômes en Data Science&lt;/h3&gt;
+&lt;h4 id=&#34;mba-data-scientist--openclassrooms&#34;&gt;MBA Data Scientist — OpenClassrooms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Période :&lt;/strong&gt; 09/2025 - 02/2027 | BERNER (Yonne)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compétence clé :&lt;/strong&gt; Conception de l&amp;rsquo;intégralité d&amp;rsquo;une chaîne de production de Data Science, de la collecte au déploiement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spécialisations :&lt;/strong&gt; Deep Learning, NLP, Vision par ordinateur, Big Data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bachelor-data-analyst--openclassrooms&#34;&gt;Bachelor Data Analyst — OpenClassrooms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Période :&lt;/strong&gt; 2022 - 2025 | Dijon&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compétences acquises :&lt;/strong&gt; Maîtrise de la Business Intelligence (Power BI, Excel avancé), de l&amp;rsquo;extraction de données complexes (SQL) et de la modélisation statistique descriptive.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Data Scientist (Apprentissage) - Berner</title>
+      <title>BrainScanAI : Classification d&#39;IRM cérébrales par apprentissage semi-supervisé</title>
+      <link>http://localhost:1313/projets/brainscanai/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/brainscanai/</guid>
+      <description>Exploitation de 93 % de données IRM non étiquetées grâce à l&amp;rsquo;extraction de caractéristiques via ResNet-50, UMAP et aux algorithmes de Label Propagation.</description>
+    </item>
+    <item>
+      <title>TechNova — Système de Prédiction d&#39;Attrition Employés</title>
+      <link>http://localhost:1313/projets/technova/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/technova/</guid>
+      <description>Industrialisation et déploiement d&amp;#39;un pipeline de Machine Learning (FastAPI, Docker, CI/CD) avec traçabilité complète sur base PostgreSQL.</description>
+    </item>
+    <item>
+      <title>Portfolio avec CI/CD</title>
+      <link>http://localhost:1313/projets/portfolio-cicd/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/portfolio-cicd/</guid>
+      <description>Mise en place d&amp;#39;un portfolio automatisé avec Hugo et GitHub Actions.</description>
+    </item>
+    <item>
+      <title>Apprentissage chez BERNER - Data Scientist</title>
       <link>http://localhost:1313/experience/berner/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/berner/</guid>
-      <description>Extraction, modélisation et BI au sein du groupe Berner.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Actuellement en MBA Data Scientist (OpenClassrooms) dans l&amp;rsquo;entreprise BERNER,&lt;/strong&gt; je serai diplômé en février 2027 après une alternance de 18 mois. J&amp;rsquo;aurai alors développé une expertise sur l&amp;rsquo;ensemble de la chaîne de valeur Data.&lt;/p&gt;
+&lt;h4 id=&#34;missions-principales-chez-berner&#34;&gt;Missions principales chez BERNER&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gestion de bases de données&lt;/strong&gt; : Extraction, nettoyage et manipulation de volumes de données complexes via SQL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reporting &amp;amp; BI&lt;/strong&gt; : Conception de tableaux de bord interactifs sur PowerBI (expert DAX) et Excel pour le pilotage stratégique de l&amp;rsquo;activité&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modélisation&lt;/strong&gt; : Mise en place de modèles statistiques avancés pour l&amp;rsquo;aide à la décision métier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;environnement-technique&#34;&gt;Environnement Technique&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Langages&lt;/strong&gt; : Python (FastAPI), SQL (PostgreSQL)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outils&lt;/strong&gt; : Power BI, KNIME, Git&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Co-Président - La Chaîne Verte</title>
+      <title>Co-Président de la Chaîne Verte</title>
       <link>http://localhost:1313/assos/la-chaine-verte/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/assos/la-chaine-verte/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Impact Business&lt;/strong&gt; : Triplement du nombre de clients (de 10 à 29).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stratégie&lt;/strong&gt; : Contribution à l&amp;rsquo;augmentation du CA et embauche d&amp;rsquo;un salarié en CDI.&lt;/li&gt;
+      <description>&lt;h4 id=&#34;réalisations-clés&#34;&gt;Réalisations clés&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Croissance stratégique&lt;/strong&gt; : Pilotage d&amp;rsquo;actions ayant mené au triplement du nombre de clients (de 10 à 29) et à l&amp;rsquo;augmentation du chiffre d&amp;rsquo;affaires&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gestion humaine&lt;/strong&gt; : Contribution directe à l&amp;rsquo;embauche d&amp;rsquo;un salarié en CDI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyse de données&lt;/strong&gt; : Réalisation de rapports d&amp;rsquo;analyse sur les données clients pour orienter les décisions du bureau&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vice-Président de l&#39;Aurore</title>
+      <link>http://localhost:1313/assos/laurore/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/assos/laurore/</guid>
+      <description>&lt;h4 id=&#34;impact-et-management&#34;&gt;Impact et Management&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gouvernance&lt;/strong&gt; : Présidence des réunions du Conseil d&amp;rsquo;Administration (10 membres)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Communication &amp;amp; Marketing&lt;/strong&gt; : Doublement de l&amp;rsquo;affluence aux concerts et triplement de l&amp;rsquo;audience sur les réseaux sociaux (Facebook, YouTube)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transformation numérique&lt;/strong&gt; : Optimisation de la gestion interne de l&amp;rsquo;association via l&amp;rsquo;implémentation d&amp;rsquo;outils numériques&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

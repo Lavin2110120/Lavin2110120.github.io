@@ -5,15 +5,29 @@
     <link>http://localhost:1313/projets/</link>
     <description>Recent content in Projets on Vincent Girardin - Portfolio</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 13 May 2026 15:57:15 +0200</lastBuildDate>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projets/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deep Learning</title>
-      <link>http://localhost:1313/projets/deep-learning/</link>
-      <pubDate>Wed, 13 May 2026 15:57:15 +0200</pubDate>
-      <guid>http://localhost:1313/projets/deep-learning/</guid>
-      <description></description>
+      <title>BrainScanAI : Classification d&#39;IRM cérébrales par apprentissage semi-supervisé</title>
+      <link>http://localhost:1313/projets/brainscanai/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/brainscanai/</guid>
+      <description>Exploitation de 93 % de données IRM non étiquetées grâce à l&amp;rsquo;extraction de caractéristiques via ResNet-50, UMAP et aux algorithmes de Label Propagation.</description>
+    </item>
+    <item>
+      <title>TechNova — Système de Prédiction d&#39;Attrition Employés</title>
+      <link>http://localhost:1313/projets/technova/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/technova/</guid>
+      <description>Industrialisation et déploiement d&amp;#39;un pipeline de Machine Learning (FastAPI, Docker, CI/CD) avec traçabilité complète sur base PostgreSQL.</description>
+    </item>
+    <item>
+      <title>Portfolio avec CI/CD</title>
+      <link>http://localhost:1313/projets/portfolio-cicd/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/portfolio-cicd/</guid>
+      <description>Mise en place d&amp;#39;un portfolio automatisé avec Hugo et GitHub Actions.</description>
     </item>
   </channel>
 </rss>

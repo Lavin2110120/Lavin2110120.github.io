@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Vincent Girardin - Portfolio</title>
+    <link>http://localhost:1313/tags/git/</link>
+    <description>Recent content in Git on Vincent Girardin - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio avec CI/CD</title>
+      <link>http://localhost:1313/projets/portfolio-cicd/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/portfolio-cicd/</guid>
+      <description>Mise en place d&amp;#39;un portfolio automatisé avec Hugo et GitHub Actions.</description>
+    </item>
+  </channel>
+</rss>

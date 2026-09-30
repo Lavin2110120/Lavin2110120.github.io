@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>TechNova — Système de Prédiction d&#39;Attrition Employés | Vincent Girardin - Portfolio</title>
+<meta name="keywords" content="Machine Learning, FastAPI, Docker, PostgreSQL, CI/CD, DevOps">
+<meta name="description" content="Industrialisation et déploiement d&#39;un pipeline de Machine Learning (FastAPI, Docker, CI/CD) avec traçabilité complète sur base PostgreSQL.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projets/technova/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projets/technova/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Vincent Girardin - Portfolio (Alt + H)">Vincent Girardin - Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/projets/" title="Projets">
+                    <span>Projets</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Expériences">
+                    <span>Expériences</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/assos/" title="Associations">
+                    <span>Associations</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/passions/" title="Passions">
+                    <span>Passions</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      TechNova — Système de Prédiction d&#39;Attrition Employés
+    </h1>
+    <div class="post-description">
+      Industrialisation et déploiement d&#39;un pipeline de Machine Learning (FastAPI, Docker, CI/CD) avec traçabilité complète sur base PostgreSQL.
+    </div>
+    <div class="post-meta">
+
+<span title='2026-05-20 00:00:00 +0000 UTC'>20 mai 2026</span>
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#-contexte--objectif-m%c3%a9tier" aria-label="📈 Contexte &amp; Objectif Métier">📈 Contexte &amp; Objectif Métier</a></li>
+            <li>
+                <a href="#-architecture-du-syst%c3%a8me--approche-devops" aria-label="🛠️ Architecture du Système &amp; Approche DevOps">🛠️ Architecture du Système &amp; Approche DevOps</a></li>
+            <li>
+                <a href="#-mod%c3%a8le-de-donn%c3%a9es--persistance-fail-safe" aria-label="🗄️ Modèle de Données &amp; Persistance Fail-Safe">🗄️ Modèle de Données &amp; Persistance Fail-Safe</a></li>
+            <li>
+                <a href="#-qualit%c3%a9-du-code--tests" aria-label="🧪 Qualité du Code &amp; Tests">🧪 Qualité du Code &amp; Tests</a></li>
+            <li>
+                <a href="#-liens-du-projet" aria-label="🔗 Liens du Projet">🔗 Liens du Projet</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p><strong>Ce projet est le rendu de mon 5ème projet de mon parcours de MBA data Scientist chez OpenClassrooms. C&rsquo;est une simulation de mise en situation pour le compte de l&rsquo;entreprise &ldquo;TechNova&rdquo;, une entreprise fictive.</strong></p>
+<h3 id="-contexte--objectif-métier">📈 Contexte &amp; Objectif Métier<a hidden class="anchor" aria-hidden="true" href="#-contexte--objectif-métier">#</a></h3>
+<p>L&rsquo;objectif de ce projet est d&rsquo;anticiper le risque de départ des collaborateurs (attrition RH) afin de permettre aux équipes de ressources humaines d&rsquo;agir préventivement.</p>
+<p>La contrainte technique majeure résidait dans l&rsquo;obligation de concevoir un système <strong>auditable et résilient</strong> : chaque prédiction doit être tracée en base de données, sans jamais bloquer l&rsquo;expérience utilisateur en cas de panne de l&rsquo;infrastructure de stockage.</p>
+<hr>
+<h3 id="-architecture-du-système--approche-devops">🛠️ Architecture du Système &amp; Approche DevOps<a hidden class="anchor" aria-hidden="true" href="#-architecture-du-système--approche-devops">#</a></h3>
+<p>Ce projet démontre une maîtrise complète du cycle de vie d&rsquo;un modèle (MLOps), de son empaquetage à sa mise en production :</p>
+<ul>
+<li><strong>API REST (FastAPI)</strong> : Développement d&rsquo;une API haute performance pour exposer les prédictions du modèle.</li>
+<li><strong>Pipeline ML de Production</strong> : Utilisation d&rsquo;un <code>PolarsPreprocessor</code> personnalisé intégré de bout en bout dans un pipeline Scikit-Learn pour un nettoyage de données rapide et reproductible.</li>
+<li><strong>Conteneurisation (Docker)</strong> : Création d&rsquo;une image Docker isolée, garantissant un déploiement agnostique de l&rsquo;application sur n&rsquo;importe quel serveur ou service Cloud.</li>
+<li><strong>CI/CD Automatisée</strong> : Configuration de <strong>GitHub Actions</strong> pour exécuter automatiquement les suites de tests à chaque modification du code. En cas de succès, l&rsquo;image Docker est déployée de manière transparente sur <strong>Hugging Face Spaces</strong>.</li>
+</ul>
+<hr>
+<h3 id="-modèle-de-données--persistance-fail-safe">🗄️ Modèle de Données &amp; Persistance Fail-Safe<a hidden class="anchor" aria-hidden="true" href="#-modèle-de-données--persistance-fail-safe">#</a></h3>
+<p>Pour répondre au besoin de monitoring et d&rsquo;audit des décisions de l&rsquo;IA, une base de données <strong>PostgreSQL</strong> (gérée via SQLAlchemy) enregistre l&rsquo;historique complet :</p>
+<p><code>id</code> (Integer) : Clé primaire (auto-incrément)
+<code>employee_id</code> (Integer) : ID unique du collaborateur testé
+<code>prediction_text</code> (String) : Résultat (<code>High</code> pour Risque, <code>Low</code> pour Stable)
+<code>probability</code> (Float) : Score de confiance du modèle (0 à 1)
+<code>created_at</code> (DateTime) : Horodatage automatique (UTC)</p>
+<p><strong>Mécanisme de Résilience (Fail-Safe)</strong> : L&rsquo;application intègre une logique de gestion des pannes. Si la base PostgreSQL devient temporairement indisponible, l&rsquo;incident est consigné dans les logs, mais l&rsquo;API délivre tout de même la prédiction à l&rsquo;utilisateur pour assurer la continuité du service RH.</p>
+<hr>
+<h3 id="-qualité-du-code--tests">🧪 Qualité du Code &amp; Tests<a hidden class="anchor" aria-hidden="true" href="#-qualité-du-code--tests">#</a></h3>
+<p>Le projet respecte les standards exigeants de l&rsquo;ingénierie logicielle :</p>
+<ul>
+<li><strong>Tests Unitaires &amp; E2E</strong> (<code>pytest</code>) : Validation de la cohérence des prédictions et de la persistance.</li>
+<li><strong>Couverture de code</strong> : <strong>88%</strong> du code est couvert par la suite de tests, garantissant une forte maintenabilité.</li>
+</ul>
+<hr>
+<h3 id="-liens-du-projet">🔗 Liens du Projet<a hidden class="anchor" aria-hidden="true" href="#-liens-du-projet">#</a></h3>
+<ul>
+<li><strong>Déploiement API (Hugging Face Spaces)</strong> : <a href="https://huggingface.co/spaces/Lavin2110/projet5_OC/tree/main">https://huggingface.co/spaces/Lavin2110/projet5_OC/tree/main</a></li>
+<li><strong>Code Source</strong> : <a href="https://github.com/Lavin2110120/Projet5_OC">https://github.com/Lavin2110120/Projet5_OC</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="http://localhost:1313/tags/fastapi/">FastAPI</a></li>
+      <li><a href="http://localhost:1313/tags/docker/">Docker</a></li>
+      <li><a href="http://localhost:1313/tags/postgresql/">PostgreSQL</a></li>
+      <li><a href="http://localhost:1313/tags/ci/cd/">CI/CD</a></li>
+      <li><a href="http://localhost:1313/tags/devops/">DevOps</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Vincent Girardin - Portfolio</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

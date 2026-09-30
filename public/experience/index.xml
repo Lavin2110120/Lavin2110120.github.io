@@ -5,15 +5,44 @@
     <link>http://localhost:1313/experience/</link>
     <description>Recent content in Experiences on Vincent Girardin - Portfolio</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 01 Feb 2027 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Scientist (Apprentissage) - Berner</title>
+      <title>Parcours de Formation</title>
+      <link>http://localhost:1313/experience/formations/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/formations/</guid>
+      <description>&lt;h3 id=&#34;-mes-diplômes-en-data-science&#34;&gt;🎓 Mes Diplômes en Data Science&lt;/h3&gt;
+&lt;h4 id=&#34;mba-data-scientist--openclassrooms&#34;&gt;MBA Data Scientist — OpenClassrooms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Période :&lt;/strong&gt; 09/2025 - 02/2027 | BERNER (Yonne)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compétence clé :&lt;/strong&gt; Conception de l&amp;rsquo;intégralité d&amp;rsquo;une chaîne de production de Data Science, de la collecte au déploiement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spécialisations :&lt;/strong&gt; Deep Learning, NLP, Vision par ordinateur, Big Data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bachelor-data-analyst--openclassrooms&#34;&gt;Bachelor Data Analyst — OpenClassrooms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Période :&lt;/strong&gt; 2022 - 2025 | Dijon&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compétences acquises :&lt;/strong&gt; Maîtrise de la Business Intelligence (Power BI, Excel avancé), de l&amp;rsquo;extraction de données complexes (SQL) et de la modélisation statistique descriptive.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Apprentissage chez BERNER - Data Scientist</title>
       <link>http://localhost:1313/experience/berner/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/berner/</guid>
-      <description>Extraction, modélisation et BI au sein du groupe Berner.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Actuellement en MBA Data Scientist (OpenClassrooms) dans l&amp;rsquo;entreprise BERNER,&lt;/strong&gt; je serai diplômé en février 2027 après une alternance de 18 mois. J&amp;rsquo;aurai alors développé une expertise sur l&amp;rsquo;ensemble de la chaîne de valeur Data.&lt;/p&gt;
+&lt;h4 id=&#34;missions-principales-chez-berner&#34;&gt;Missions principales chez BERNER&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gestion de bases de données&lt;/strong&gt; : Extraction, nettoyage et manipulation de volumes de données complexes via SQL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reporting &amp;amp; BI&lt;/strong&gt; : Conception de tableaux de bord interactifs sur PowerBI (expert DAX) et Excel pour le pilotage stratégique de l&amp;rsquo;activité&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modélisation&lt;/strong&gt; : Mise en place de modèles statistiques avancés pour l&amp;rsquo;aide à la décision métier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;environnement-technique&#34;&gt;Environnement Technique&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Langages&lt;/strong&gt; : Python (FastAPI), SQL (PostgreSQL)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outils&lt;/strong&gt; : Power BI, KNIME, Git&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

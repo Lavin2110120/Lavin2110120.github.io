@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FastAPI on Vincent Girardin - Portfolio</title>
+    <link>http://localhost:1313/tags/fastapi/</link>
+    <description>Recent content in FastAPI on Vincent Girardin - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TechNova — Système de Prédiction d&#39;Attrition Employés</title>
+      <link>http://localhost:1313/projets/technova/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/technova/</guid>
+      <description>Industrialisation et déploiement d&amp;#39;un pipeline de Machine Learning (FastAPI, Docker, CI/CD) avec traçabilité complète sur base PostgreSQL.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer Vision on Vincent Girardin - Portfolio</title>
+    <link>http://localhost:1313/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Vincent Girardin - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BrainScanAI : Classification d&#39;IRM cérébrales par apprentissage semi-supervisé</title>
+      <link>http://localhost:1313/projets/brainscanai/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projets/brainscanai/</guid>
+      <description>Exploitation de 93 % de données IRM non étiquetées grâce à l&amp;rsquo;extraction de caractéristiques via ResNet-50, UMAP et aux algorithmes de Label Propagation.</description>
+    </item>
+  </channel>
+</rss>
