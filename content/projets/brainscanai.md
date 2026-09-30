@@ -7,9 +7,11 @@ categories: ["Data Science", "Santé"]
 summary: "Exploitation de 93 % de données IRM non étiquetées grâce à l'extraction de caractéristiques via ResNet-50, UMAP et aux algorithmes de Label Propagation."
 cover:
   image: "/images/projects/brainscanai-irm-pictures.png"
-  alt: "Projection UMAP 2D des caractéristiques ResNet-50"
+  alt: "Aperçu des IRM cérébrales"
+  hiddenInSingle: true
 github: "https://github.com/Lavin2110120/Lavin2110120.github.io"
 ---
+![Aperçu des IRM cérébrales](/images/projects/brainscanai-irm-pictures.png)
 
 ## Contexte & Enjeu Clinique
 
